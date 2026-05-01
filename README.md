@@ -1,7 +1,7 @@
 # BASC
 
 ## Overview
-BASC is a specialized tool designed for data processing aimed at removing baseline correction for time series data. This is particularly useful in fields such as bioinformatics, finance, and environmental science where accurate time series insights are critical.
+BASC is a specialized tool designed for data processing aimed at correcting and preserving the permanant displacement, and also has a fuction for baseline correction to time series data. This is particularly useful in fields of seismic hazard assessment, which provide a reliable time-series data analysis for checking the permanant displacement on the ground.
 
 ## Features
 - Efficient baseline correction tailored for time series data.
