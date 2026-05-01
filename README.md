@@ -15,7 +15,11 @@ You can use the jupter-notebook directly for baseline correction.
 - **Output:** Cleaned time series data ready for analysis with values in `.txt` formats.
 
 ## Method
-BASC employs advanced algorithms to analyze the time series data and applies sophisticated techniques to correct for baseline drift while preserving the integrity of the data.
+BASC scheme has two parts: 
+
+(i) Preserve the permanant displacement, based on the method of Schiappapietra et al. (2021).
+
+(ii) Baseline correction: the permanant displacement is removed by Kamai et al. (2014)'s displacement model.
 
 ## Reproducibility
 To ensure reproducibility, we provide clear documentation along with sample datasets that customers can use to validate the functionality of the BASC tool.
@@ -28,3 +32,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Reference
 Schiappapietra, E., Felicetta, C., & D’Amico, M. (2021). Fling-Step Recovering from Near-Source Waveforms Database. Geosciences, 11(2), 67. https://doi.org/10.3390/geosciences11020067
+
+Kamai, R., Abrahamson, N., & Graves, R. (2014). Adding fling effects to processed ground‐motion time histories. Bulletin of the Seismological Society of America, 104(4), 1914-1929. https://doi.org/10.1785/0120130272
