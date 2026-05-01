@@ -1,13 +1,11 @@
 # BASC
 
 ## Overview
-BASC is a specialized tool designed for data processing aimed at correcting and preserving the permanant displacement, and also has a fuction for baseline correction to time series data. This is particularly useful in fields of seismic hazard assessment, which provide a reliable time-series data analysis for checking the permanant displacement on the ground.
+BASC (BASCO, BASeline COrrection) is a processing scheme extended from eBASCO (Schiappapietra et al., 2021) to remove the baseline of strong-motion records through piecewise linear detrending of the velocity time history. Unlike standard processing workflows, eBASCO does not apply frequency filtering to suppress low-frequency content. As a result, it preserves both (i) long-period, near-source ground motion—often expressed as a one-sided pulse in the velocity trace—and (ii) the final displacement offset (fling-step). The software is designed for the rapid identification of fling-containing waveforms in large strong-motion datasets.
 
 ## Features
 - Efficient baseline correction tailored for time series data.
 - User-friendly interface for easy integration.
-- Flexible input options to accommodate various data formats.
-- Comprehensive performance metrics and logging.
 
 ## Usage
 You can use the jupter-notebook directly for baseline correction.
@@ -27,3 +25,6 @@ Contributions are welcome! Feel free to fork the repository and submit a pull re
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Reference
+Schiappapietra, E., Felicetta, C., & D’Amico, M. (2021). Fling-Step Recovering from Near-Source Waveforms Database. Geosciences, 11(2), 67. https://doi.org/10.3390/geosciences11020067
